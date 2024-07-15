@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
+    color: #333;
 }
 body{
     background: #28282B;
@@ -52,6 +53,7 @@ body{
     margin-top: 10px;
     float: right;
     position: relative;
+    font-weight: 700;
 }
 .quote-card .quote-author::before{
     content: '';
