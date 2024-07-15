@@ -1,97 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Playfair Display", serif;
-    color: #333;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  color: #333;
 }
-body{
-    background: #28282B;
-}
-
-.quote-card{
-    background: #fff;
-    width: 90%;
-    max-width: 700px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 40px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 10px 20px 0px rgba(255, 255, 255, 0.15);
-}
-.quote-card .title{
-    font-size: 32px;
-    margin-bottom: 40px;
-    position: relative;
-}
-.quote-card .title::after{
-    content: '';
-    width: 75px;
-    height: 3px;
-    border-radius: 3px;
-    background: #36454F;
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
+body {
+  background: #28282b;
 }
 
-.quote-card .quote-text{
-    font-size: 26px;
-    min-height: 110px;
+.quote-card {
+  background: #fff;
+  width: 90%;
+  max-width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 20px 0px rgba(255, 255, 255, 0.15);
+}
+.quote-card .title {
+  font-size: 32px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.quote-card .title::after {
+  content: "";
+  width: 75px;
+  height: 3px;
+  border-radius: 3px;
+  background: #36454f;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.quote-card .quote-text {
+  font-size: 26px;
+  min-height: 110px;
 }
 .quote-card .quote-text::before,
-.quote-card .quote-text::after{
-    content: '"';
+.quote-card .quote-text::after {
+  content: '"';
 }
 
-.quote-card .quote-author{
-    display: block;
-    margin-top: 10px;
-    float: right;
-    position: relative;
-    font-weight: 700;
+.quote-card .quote-author {
+  display: block;
+  margin-top: 10px;
+  float: right;
+  position: relative;
+  font-weight: 700;
 }
-.quote-card .quote-author::before{
-    content: '';
-    width: 20px;
-    height: 2px;
-    background: #36454F;
-    position: absolute;
-    top: 50%;
-    left: -30px;
+.quote-card .quote-author::before {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #36454f;
+  position: absolute;
+  top: 50%;
+  left: -30px;
 }
 
-.quote-card .action-btn{
-    width: 100%;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+.quote-card .action-btn {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
-.quote-card .action-btn button{
-    background: #36454F;
-    color: #fff;
-    border-radius: 25px;
-    border: 1px solid #36454F;
-    width: 150px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5px;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 700;
+.quote-card .action-btn button {
+  background: #36454f;
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid #36454f;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
 }
-.quote-card .action-btn button img{
-    width: 20px;
-   margin-right: 10px;
+.quote-card .action-btn button img {
+  width: 20px;
+  margin-right: 10px;
 }
-.quote-card .action-btn button:nth-child(2){
-    background-color: transparent;
-    color: #333;
+.quote-card .action-btn button:nth-child(2) {
+  background-color: transparent;
+  color: #333;
 }
