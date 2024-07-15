@@ -62,3 +62,32 @@ body{
     top: 50%;
     left: -30px;
 }
+
+.quote-card .action-btn{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.quote-card .action-btn button{
+    background: rgb(23, 124, 229);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23, 124, 229);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.quote-card .action-btn button img{
+    width: 20px;
+   margin-right: 10px;
+}
+.quote-card .action-btn button:nth-child(2){
+    background-color: transparent;
+    color: #333;
+}
