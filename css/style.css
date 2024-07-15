@@ -46,3 +46,19 @@ body{
 .quote-card .quote-text::after{
     content: '"';
 }
+
+.quote-card .quote-author{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+.quote-card .quote-author::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
