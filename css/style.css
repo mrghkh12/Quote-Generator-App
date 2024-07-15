@@ -6,7 +6,7 @@
     font-family: "Playfair Display", serif;
 }
 body{
-    background: #bbc6fa;
+    background: #28282B;
 }
 
 .quote-card{
@@ -19,7 +19,7 @@ body{
     padding: 40px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 20px 0px rgba(255, 255, 255, 0.15);
 }
 .quote-card .title{
     font-size: 32px;
@@ -31,7 +31,7 @@ body{
     width: 75px;
     height: 3px;
     border-radius: 3px;
-    background: rgb(23, 124, 229);
+    background: #36454F;
     position: absolute;
     bottom: -10px;
     left: 50%;
@@ -57,7 +57,7 @@ body{
     content: '';
     width: 20px;
     height: 2px;
-    background: rgb(23, 124, 229);
+    background: #36454F;
     position: absolute;
     top: 50%;
     left: -30px;
@@ -70,10 +70,10 @@ body{
     justify-content: center;
 }
 .quote-card .action-btn button{
-    background: rgb(23, 124, 229);
+    background: #36454F;
     color: #fff;
     border-radius: 25px;
-    border: 1px solid rgb(23, 124, 229);
+    border: 1px solid #36454F;
     width: 150px;
     height: 50px;
     display: flex;
@@ -82,6 +82,7 @@ body{
     margin: 5px;
     cursor: pointer;
     font-size: 18px;
+    font-weight: 700;
 }
 .quote-card .action-btn button img{
     width: 20px;
