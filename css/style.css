@@ -37,3 +37,12 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
+
+.quote-card .quote-text{
+    font-size: 26px;
+    min-height: 110px;
+}
+.quote-card .quote-text::before,
+.quote-card .quote-text::after{
+    content: '"';
+}
