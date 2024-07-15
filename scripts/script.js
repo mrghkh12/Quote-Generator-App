@@ -19,6 +19,10 @@ function setQuoteDate(quoteData){
     quoteAuthorElem.innerHTML = quoteData.author
 }
 
+function postQuote(){
+    window.open(`https://x.com/intent/post?text=${quoteTextElem.innerHTML} ---- by ${quoteAuthorElem.innerHTML}`,'X Window', 'width=600, height=300')
+}
 
 newQuoteBtn.addEventListener('click' , getQuote)
+postQuoteBtn.addEventListener('click' , postQuote)
 window.addEventListener('load' , getQuote)
