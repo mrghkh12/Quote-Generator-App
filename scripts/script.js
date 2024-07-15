@@ -11,4 +11,14 @@ async function getQuote(){
     let response = await fetch(apiUrl)
     let data = await response.json()
 
+    setQuoteDate(data)
 }
+
+function setQuoteDate(quoteData){
+    quoteTextElem.innerHTML = quoteData.content
+    quoteAuthorElem.innerHTML = quoteData.author
+}
+
+
+newQuoteBtn.addEventListener('click' , getQuote)
+window.addEventListener('load' , getQuote)
